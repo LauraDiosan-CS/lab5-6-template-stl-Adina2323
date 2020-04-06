@@ -9,7 +9,7 @@ private:
 	int loc;
 public:
 	Booking();
-	Booking(const int nr,const char*nume,int loc);
+	Booking(int nr,const char*nume,int loc);
 	Booking(const Booking& s);
 	~Booking();
 	int getNr();
@@ -19,6 +19,6 @@ public:
 	void setNr(int nr);
 	void setLoc(int loc);
 	Booking& operator=(const Booking& s);
-	bool operator==(const Booking& s);
+	bool operator==(const Booking& );
 	friend ostream& operator<<(ostream& os, const Booking& s);
 };

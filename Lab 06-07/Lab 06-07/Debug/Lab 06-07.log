@@ -1,3 +1,2 @@
-﻿  main.cpp
-C:\Users\Adina\Desktop\Info sem2\Lab-6-7\Lab 06-07\Lab 06-07\main.cpp(17,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  Lab 06-07.vcxproj -> C:\Users\Adina\Desktop\Info sem2\Lab-6-7\Lab 06-07\Debug\Lab 06-07.exe
+﻿  UI.cpp
+  Lab 06-07.vcxproj -> E:\Facultate\Anul 1\Semestrul 2\Info sem2\Lab 06-07\Lab 06-07\Debug\Lab 06-07.exe

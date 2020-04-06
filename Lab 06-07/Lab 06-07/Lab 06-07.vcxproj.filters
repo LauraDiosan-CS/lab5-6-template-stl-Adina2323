@@ -21,15 +21,42 @@
     <ClInclude Include="Repository.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functionalitati.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RepoFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="booking.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Repository.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functionalitati.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RepoFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -70,7 +70,7 @@ Booking& Booking::operator=(const Booking& s) {
 
 bool Booking:: operator==(const Booking& s) 
 {
-	return strcmp(this->nume, s.nume) == 0 && this->nr == s.nr && this->loc == s.loc;
+	return ((strcmp(this->nume, s.nume) == 0) and (this->nr == s.nr) and (this->loc == s.loc));
 }
 
 ostream& operator<<(ostream& os, const Booking& s)

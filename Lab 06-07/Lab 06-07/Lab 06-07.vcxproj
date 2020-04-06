@@ -139,12 +139,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="booking.h" />
+    <ClInclude Include="functionalitati.h" />
+    <ClInclude Include="RepoFile.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="TestService.h" />
+    <ClInclude Include="Service.h" />
     <ClInclude Include="Repository.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="booking.cpp" />
-    <ClCompile Include="Repository.cpp" />
+    <ClCompile Include="functionalitati.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Service.cpp" />
+    <ClCompile Include="RepoFile.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="TestService.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
